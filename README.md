@@ -26,14 +26,17 @@
 支持svn上线diff功能（本地代码库和线上目录文件diff功能）<br>
 拆分日志目录（以不同项目上线单为单位）<br>
 ## 依赖
-Bash(git、ssh)
-LNMP/LAMP(php5.4+)
-Composer
-Ansible(可选)
+Bash(git、ssh)<br>
+LNMP/LAMP(php5.4+)<br>
+Composer<br>
+Ansible(可选)<br>
 ## 安装
-git clone git@github.com:meolu/walle-web.git
-cd walle-web
-vi config/web.php # 设置mysql连接
-composer install  # 如果缺少bower-asset的话， 先安装：composer global require "fxp/composer-asset-plugin:*"
-./yii walle/setup # 初始化项目
-配置nginx/apache的webroot指向walle-web/web，简单范例详见页面底部常见问题和解决办法。
+git clone https://github.com/taihedeveloper/twalle.git<br>
+cd twalle<br>
+vi config/web.php # 设置mysql连接<br>
+composer install  # 如果缺少bower-asset的话， 先安装：composer global require "fxp/composer-asset-plugin:*"<br>
+./yii twalle/setup # 初始化项目<br>
+配置nginx/apache的webroot指向twalle/web，<br>
+## 感谢
+最后再次感谢@meolu/walle-web的开源代码，这一版的代码思路基本全部源自于其git的代码，结合公司实际工作当中遇到的问题进行增量功能研发。
+有任何问题请及时联系我们[th_api@taihe.com]

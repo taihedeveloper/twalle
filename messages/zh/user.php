@@ -1,0 +1,67 @@
+<?php
+
+return [
+    'audit title' => '审核管理员',
+    'projecter audit' => '项目管理员审核',
+    'pass projecter audit' => '同意设置为项目管理员',
+    'projecter audit tip' => '项目管理员可创建项目',
+    'profile title' => '个人信息',
+    'level' => '级别',
+    'inactive' => '（未激活）',
+    'register time' => '注册时间',
+    'js pass' => '审核通过：）',
+    'js pass failed' => '审核操作失败：）',
+    'reset passwd title' => '重置密码',
+    'password' => '新密码',
+    'upload failed' => '上传附件失败',
+    'attached\'s size too large' => '附件体积过大',
+    'type not allow' => '上传附件失败，附件格式只支持：{types}',
+    'update avatar failed' => '更新头像失败',
+    'cant\'t remove active manager' => '只能删除未审核的项目管理员：(',
+    'only pass inactive manager' => '只能通过未审核的项目管理员：(',
+    'user not exists' => '该用户不存在：）',
+    'confirm email by click url' => '点击以下链接完成注册，如不是本人操作，请忽略，谢谢！',
+    'dear' => '亲爱的',
+    'active' => '确认激活',
+    'reset password by click url' => '点击以下链接完成重置密码，如不是本人操作，请忽略，谢谢！',
+    'reset password' => 'reset password',
+
+    'list title' => '用户管理',
+    'list placeholder' => '用户名,ID,真实姓名,邮箱',
+    'create user' => '新建用户',
+    'l_id' => 'ID',
+    'l_username' => '用户名',
+    'l_realname' => '真实姓名',
+    'l_email' => '邮箱',
+    'l_role' => '用户权限',
+    'l_opera' => '操作',
+    'u_edit' => '编辑',
+    'u_delete' => '删除',
+
+    'add user' => '新建用户',
+    'username' => '用户名',
+    'role' => '用户权限',
+    'realname' => '真实姓名',
+    'email' => '邮箱',
+    'user_role_1' => '管理员',
+    'user_role_2' => '开发者',
+	'user_role_11' => '超级管理员',
+
+    'change password' => '修改密码',
+    'save' => '保存',
+    'cancel' => '取消',
+
+    'label password' => '密码',
+
+    'role to opposite 1' => '设为开发者',
+    'role to opposite 2' => '设为管理员',
+	'role to opposite 11' => '超级管理员',
+    'label role to opposite 1' => '确定设置为普通用户？',
+    'label role to opposite 2' => '确定设置为管理员？',
+    'js delete user' => '确认帐号永久删除吗？',
+    'username exists' => '用户已存在',
+    'administrator account cannot be deleted' => '管理员帐号不能删除',
+	'user_group'=>'用户组'
+
+
+];
